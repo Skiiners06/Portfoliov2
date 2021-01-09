@@ -1,5 +1,19 @@
 body {
   background-color: #fbfaf9;
+  margin-top: -60px;
+}
+
+.container {
+  width: 100%;
+}
+
+img.logoBurgerMenu {
+  margin-right: 20px;
+  margin-top: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
 }
 
 .logoBurgerMenu {
@@ -9,10 +23,53 @@ body {
 /* hidden by default */
 .afficheMenu {
   display: none;
+  background-color: #ebfcfb;
+  position: absolute;
+  width: 100%;
+  z-index: 998;
 }
 
 .sousMenu {
   text-transform: uppercase;
+  width: 100%;
+  padding: 2em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.footer {
+  background-color: #6c757d;
+  padding: 1.5em;
+  color: #fbfaf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.footer p {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.footer a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  text-decoration: none;
+  color: #fbfaf9;
+  padding: 0.5em;
+}
+
+.logoCoordonnee {
+  height: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

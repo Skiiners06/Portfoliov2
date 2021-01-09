@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./css/home.css">
 
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -26,12 +27,7 @@
             <li class="sousMenu" href="#">Contact</li>
         </ul>
     </nav>
-    <div class="photoMoi">
-        <img src="./img/moiNoirBlanc.jpg">
-    </div>
-    <div class="presentation">
-        <p>Bonjour, je m'appelle <span> maxime coulon</span> Développeur Web</p>
-    </div>
+
     <footer class="footer">
         <p>Maxime COULON Tous droits réservés - 2020 ©</p>
         <p>Coordonnées</p>
@@ -48,6 +44,7 @@
         if(x.style.display === "block"){
             x.style.display = "none"
             logo.src = "./img/burgerMenu.svg"
+            logo.style.float = 'left'
         }else {
             x.style.display = "block"
             logo.src = "./img/close.svg"

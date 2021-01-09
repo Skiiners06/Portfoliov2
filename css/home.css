@@ -1,0 +1,44 @@
+.photoMoi {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.photoMoi img {
+  margin-top: 90px;
+  width: 60%;
+  border-radius: 20%;
+}
+
+.presentation {
+  width: 80%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.presentation > p {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  line-height: 1.5;
+  margin-bottom: 75px;
+}
+
+.presentation > p > span {
+  color: #f68e5f;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=home.css.map */

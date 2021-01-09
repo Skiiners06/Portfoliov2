@@ -1,0 +1,38 @@
+$orange:#f68e5f;
+
+.photoMoi{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:30px;
+  margin-top: 60px;
+  img{
+    margin-top: 90px;
+    width:60%;
+    border-radius: 20%;
+  }
+}
+
+.presentation{
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin:0 auto;
+  font-size:1.5em;
+}
+
+.presentation>p{
+  display:flex;
+  flex-direction: column;
+  line-height: 1.5;
+  margin-bottom: 75px;
+}
+
+
+
+.presentation>p>span{
+  color:$orange;
+  text-transform: uppercase;
+}
