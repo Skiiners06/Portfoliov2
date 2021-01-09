@@ -1,0 +1,22 @@
+$bodyColor: #fbfaf9;
+
+
+body{
+  background-color:$bodyColor;
+}
+
+.logoBurgerMenu{
+  height:50px;
+}
+
+/* hidden by default */
+.afficheMenu{
+  display:none;
+}
+
+.sousMenu{
+  text-transform: uppercase;
+}
+
+
+

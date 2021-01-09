@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Maxime COULON | Développeur Web</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="barnav">
+        <div>
+            <img class="logoBurgerMenu" src="./img/burgerMenu.svg" onclick="afficheMenu()">
+        </div>
+
+        <ul class="afficheMenu">
+            <li class="sousMenu" href="#">Accueil</li>
+            <li class="sousMenu" href="#">A propos</li>
+            <li class="sousMenu" href="#">Compétences</li>
+            <li class="sousMenu" href="#">Réalisations</li>
+            <li class="sousMenu" href="#">Contact</li>
+        </ul>
+    </nav>
+<script>
+    function afficheMenu(){
+        let x = document.getElementsByClassName('afficheMenu')[0]
+        let logo = document.getElementsByClassName('logoBurgerMenu')[0]
+        if(x.style.display === "block"){
+            x.style.display = "none"
+            logo.src = "./img/burgerMenu.svg"
+        }else {
+            x.style.display = "block"
+            logo.src = "./img/close.svg"
+            logo.style.height = 40 + 'px'
+        }
+    }
+</script>
+</body>
+</html>
