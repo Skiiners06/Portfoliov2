@@ -20,13 +20,39 @@
   }
 }
 
-.content{
+
+h2{
+  display: flex;
+  flex-direction: column;
+  font-size:1.5em;
+  text-align: center;
+  width:60%;
+  margin:10px auto;
+  padding:0.3em;
+}
+
+.competences{
   width:80%;
   margin:10px auto;
-
-  p{
-    padding: 1em;
-    text-align:center;
-  }
 }
+
+.logoCompetences {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+svg.icon{
+  width:100px;
+  height:100px;
+  align-content: space-between;
+  height: 100px;
+  margin: 20px 0px 15px 0px;
+}
+
+
+
+
+
 
