@@ -6,27 +6,42 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="css/aPropos.css">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="container">
-
     <nav class="barnav">
         <div>
-            <img class="logoBurgerMenu" src="./img/burgerMenu.svg" onclick="afficheMenu()">
+            <img  class="logoBurgerMenu" src="./img/burgerMenu.svg" onclick="afficheMenu()">
         </div>
 
         <ul class="afficheMenu">
-            <li class="sousMenu" href="#">Accueil</li>
-            <li class="sousMenu" href="#">A propos</li>
-            <li class="sousMenu" href="#">Compétences</li>
-            <li class="sousMenu" href="#">Réalisations</li>
-            <li class="sousMenu" href="#">Contact</li>
+            <li class="sousMenu"><a href="index.html">Accueil</a></li>
+            <li class="sousMenu"><a href="aPropos.html">a Propos</a></li>
+            <li class="sousMenu"><a href="competences.html">Compétences</a></li>
+            <li class="sousMenu"><a href="realisations.html">Réalisations</a></li>
+            <li class="sousMenu"><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <div class="main">
+        <h1> a propos </h1>
+
+        <div class="content">
+            <p>Je m'appelle Maxime Coulon, âgé de 21 ans et actuellement en licence profesionnelle M.I.W
+                (Mobilité - Internet - Web).
+            </p>
+            <p>Avant d'intégrer cette licence dans le domaine du Web, j'ai d'abord passé un baccalauréat profssionnel
+             S.E.N (Systèmes Electroniques et Numériques) option télécomunications et réseaux avec mention Très bien.
+            </p>
+            <p>C'est à ce moment que j'ai découvert le développement informatique et commencé à suivre des cours sur internet.</p>
+            <p>J'ai donc intégré un BTS S.I.O (Services Informatique aux Organisations) dans le but d'en apprendre plus sur le développement
+            et d'en faire mon métier.</p>
+        </div>
+    </div>
+
 
     <footer class="footer">
         <p>Maxime COULON Tous droits réservés - 2020 ©</p>
@@ -44,7 +59,7 @@
         if(x.style.display === "block"){
             x.style.display = "none"
             logo.src = "./img/burgerMenu.svg"
-            logo.style.float = 'left'
+            logo.style.float = 'right'
         }else {
             x.style.display = "block"
             logo.src = "./img/close.svg"

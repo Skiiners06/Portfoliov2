@@ -1,6 +1,5 @@
 body {
   background-color: #fbfaf9;
-  margin-top: -60px;
 }
 
 .container {
@@ -10,14 +9,15 @@ body {
 img.logoBurgerMenu {
   margin-right: 20px;
   margin-top: 10px;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
   z-index: 999;
+  float: right;
 }
 
 .logoBurgerMenu {
-  height: 50px;
+  height: 40px;
 }
 
 /* hidden by default */
@@ -39,6 +39,11 @@ img.logoBurgerMenu {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
+}
+
+.sousMenu a {
+  text-decoration: none;
+  color: #080708;
 }
 
 .footer {

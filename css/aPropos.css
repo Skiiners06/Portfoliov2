@@ -1,0 +1,39 @@
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.main h1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  font-size: 2em;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  padding: 0.3em;
+}
+
+.content {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.content p {
+  padding: 1em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=aPropos.css.map */

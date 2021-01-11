@@ -1,11 +1,12 @@
 $blanc: #fbfaf9;
 $bleueClair : #ebfcfb;
 $grisFooter : #6c757d;
+$noir : #080708;
 
 
 body{
   background-color:$blanc;
-  margin-top: -60px;
+
 }
 
 .container{
@@ -15,14 +16,15 @@ body{
 img.logoBurgerMenu{
   margin-right: 20px;
   margin-top: 10px;
-  position: absolute;
+  position: relative;
   right: 0;
   top:0;
   z-index: 999;
+  float:right;
 }
 
 .logoBurgerMenu{
-  height:50px;
+  height:40px;
 }
 
 /* hidden by default */
@@ -41,6 +43,11 @@ img.logoBurgerMenu{
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  a{
+    text-decoration: none;
+    color:$noir;
+  }
 }
 
 .footer {
