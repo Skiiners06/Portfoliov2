@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.hidden{
+  display: none;
+}
+
 .main{
   display: flex;
   flex-direction: column;
@@ -49,6 +53,7 @@ svg.icon{
   align-content: space-between;
   height: 100px;
   margin: 20px 0px 15px 0px;
+  padding:0.5em;
 }
 
 

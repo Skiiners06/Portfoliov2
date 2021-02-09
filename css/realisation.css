@@ -5,10 +5,6 @@
       flex-direction: column;
 }
 
-.hidden {
-  display: none;
-}
-
 .main {
   display: -ms-flexbox;
   display: flex;
@@ -43,30 +39,41 @@ h2 {
   padding: 0.3em;
 }
 
-.competences {
+.realisations {
   width: 80%;
   margin: 10px auto;
 }
 
-.logoCompetences {
-  -ms-flex-direction: row;
-      flex-direction: row;
+.real {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.description {
+  text-align: center;
+}
+
+.description p {
+  padding-bottom: 10px;
+}
+
+.description img {
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.lienReal {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
-svg.icon {
-  width: 100px;
-  height: 100px;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  height: 100px;
-  margin: 20px 0px 15px 0px;
-  padding: 0.5em;
+.lienReal a {
+  margin: 0 auto;
+  width: 40%;
+  padding-bottom: 10px;
+  color: black;
 }
 
-/*# sourceMappingURL=competences.css.map */
+/*# sourceMappingURL=realisation.css.map */
