@@ -83,4 +83,40 @@ img.logoBurgerMenu {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .afficheMenu {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #ebfcfb;
+    position: inherit;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .afficheMenu .sousMenu > a {
+    font-size: 1.8em;
+  }
+  .afficheMenu .sousMenu > a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+  }
+  .barnav > div {
+    display: none;
+  }
+  .main {
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main .photoMoi {
+    margin-top: 100px;
+    width: 50%;
+  }
+  .main .presentation {
+    width: 40%;
+    margin: 200px auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

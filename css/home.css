@@ -77,4 +77,11 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .presentation a:hover {
+    background-color: #33A0D7;
+    color: white;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */
