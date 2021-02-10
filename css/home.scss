@@ -1,4 +1,5 @@
 $orange:#f68e5f;
+$bleueClair : #ebfcfb;
 
 .photoMoi{
   width:100%;
@@ -21,13 +22,24 @@ $orange:#f68e5f;
   text-align: center;
   margin:0 auto;
   font-size:1.5em;
+
+  a{
+    margin:0 auto;
+    color:black;
+    text-decoration: none;
+    width:60%;
+    background-color: $bleueClair;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+  }
 }
 
 .presentation>p{
   display:flex;
   flex-direction: column;
   line-height: 1.5;
-  margin-bottom: 75px;
+  margin-bottom: 30px;
 }
 
 
