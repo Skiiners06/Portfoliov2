@@ -3,6 +3,7 @@
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  min-height: 100vh;
 }
 
 .hidden {
@@ -14,6 +15,8 @@
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 
 .main h1 {
@@ -67,6 +70,19 @@ svg.icon {
   height: 100px;
   margin: 20px 0px 15px 0px;
   padding: 0.5em;
+}
+
+@media screen and (min-width: 481px) {
+  svg.icon {
+    width: 25%;
+  }
+  .competences {
+    margin: auto;
+  }
+  h2 {
+    margin: 30px auto -40px auto;
+    font-size: 1.8em;
+  }
 }
 
 /*# sourceMappingURL=competences.css.map */

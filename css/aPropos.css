@@ -3,6 +3,7 @@
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  min-height: 100vh;
 }
 
 .main {
@@ -10,6 +11,8 @@
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 
 .main h1 {
@@ -35,6 +38,18 @@
 .content p {
   padding: 1em;
   text-align: center;
+}
+
+@media screen and (min-width: 481px) {
+  .content {
+    margin: auto;
+  }
+  .content p {
+    font-size: 1.5em;
+  }
+  .main h1 {
+    margin: 30px auto -40px auto;
+  }
 }
 
 /*# sourceMappingURL=aPropos.css.map */

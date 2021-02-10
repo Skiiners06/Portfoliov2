@@ -42,9 +42,29 @@ $bleueClair : #77C0E4;
   margin-bottom: 30px;
 }
 
-
-
 .presentation>p>span{
   color:$orange;
   text-transform: uppercase;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex-grow:1;
+}
+
+@media only screen and(min-width:481px){
+  .photoMoi img{
+    width:40%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .photoMoi img{
+    width:30%;
+  }
 }

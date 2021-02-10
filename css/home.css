@@ -52,4 +52,29 @@
   text-transform: uppercase;
 }
 
+.container {
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.main {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+@media only screen and (min-width: 481px) {
+  .photoMoi img {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .photoMoi img {
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */
