@@ -52,4 +52,10 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .content {
+    margin-top: 60px;
+  }
+}
+
 /*# sourceMappingURL=aPropos.css.map */
